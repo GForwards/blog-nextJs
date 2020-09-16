@@ -282,3 +282,7 @@ export {
 } from '@ant-design/icons/lib/outline/CalendarOutline';
 
 ```
+
+## 注意
+
+子组件里面不能使用getInitialProps方法取数据，必须在useEffext中执行取数据
